@@ -58,21 +58,19 @@
 
 
   
-@media screen and (max-width: 480px) {
-  .Services {
-    // margin-top: 15rem;
-    flex-direction: column;
-    gap: 5rem;
-    height: 66rem;
-    padding: 0;
-  }
+// @media screen and (max-width: 480px) {
+//   .Services {
+//     // margin-top: 15rem;
+//     height: 50rem;
+//     margin-top: 4rem !important;
+//   }
 
-  .cards{
-    display: flex;
-    flex-direction: column;
-    gap: 17rem;
-  }
-  .cards > * {
-    position: static;
-  }
-}
+//   .cards{
+//     display: flex;
+//     flex-direction: column;
+//     gap: 17rem;
+//   }
+//   .cards > * {
+//     position: static;
+//   }
+// }

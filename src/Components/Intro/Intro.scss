@@ -107,22 +107,24 @@
 
 
 
-@media screen and (max-width: 480px) {
-    .intro {
-      flex-direction: column;
-      height: 64rem;
-      gap: 7rem;
-    }
+// @media screen and (max-width: 375px) {
+//     .intro {
+//         width: 100%;
+//     }
   
-    .i-right {
-      transform: scale(0.8);
-      left: -3rem;
-    }
-    .i-right.blur {
-      display: none;
-    }
-    .floating-div:nth-of-type(1){
+//     .i-right>* {
+//         // width: 50%;
+//         // display: flex;
+//         // align-items: center;
+//         width: 50%;
+//         display: flex;
+//         align-items: center;
+//     }
+//     .i-right.blur {
+//     //   display: none;
+//     }
+//     .floating-div:nth-of-type(1){
 
-      top: -7rem !important;
-    }
-  }
+//     //   top: -7rem !important;
+//     }
+//   }

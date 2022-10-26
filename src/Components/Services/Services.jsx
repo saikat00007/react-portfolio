@@ -46,7 +46,7 @@ export const Services = () => {
 
         // style={{ top: '12rem', left: '-4rem' }}
         >
-          <Card
+          <Card className="second-card"
             emoji={Glasses}
             heading={"Developer"}
             detail={"Html, Css, JavaScript, React, payton, java,Photoshoppp "}

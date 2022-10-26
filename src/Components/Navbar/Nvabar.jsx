@@ -16,20 +16,21 @@ const Nvabar = () => {
         </div>
         <div className="n-right">
             <div className="n-list">
-                <ul style={{ listStyleType: 'none' }}>
+                <ul className='header-menu'
+                style={{ listStyleType: 'none' }}>
                     <Link spy={true} to='Nvabar' smooth={true} activeClass='activeClass'>
                     <li>Home</li>
                     </Link>
-                    <Link spy={true} to= 'services' smooth={true} activeClass='activeClass'>
+                    <Link spy={true} to= 'services' smooth={true} >
                     <li>Services</li>
                     </Link>
-                    <Link spy={true} to= 'experience' smooth={true} activeClass='activeClass'>
+                    <Link spy={true} to= 'experience' smooth={true} >
                     <li>Experience</li>
                     </Link>
-                    <Link spy={true} to= 'portfolio' smooth={true} activeClass='activeClass'>
+                    <Link spy={true} to= 'portfolio' smooth={true} >
                     <li>Portfolio</li>
                         </Link>
-                        <Link spy={true} to= 'testimonial' smooth={true} activeClass='activeClass'>
+                        <Link spy={true} to= 'testimonial' smooth={true} >
                         <li>Testimonials</li>
                         </Link>
                     
